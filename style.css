@@ -1,0 +1,53 @@
+/*Genral Style*/
+.row{max-width:1920px;}
+body{background: url(images/bg_body.jpg);color: #58585b}
+label{font-size: 1.25rem;color: #58585b;}
+.cta-button{background: #757476;color: white;padding:0.5rem 2rem;font-size: 1.75rem;text-transform: uppercase;}
+select, input[type=text], input[type=email], input[type=password], textarea{background: rgba(0, 0, 0, 0.35);}
+
+.question-box .question{font-size: 1.35rem;margin-bottom: 15px;}
+.question-box .radio-style, .question-box .checkbox-style{margin-bottom: 10px;}
+
+.option-w-textbox{display: table;width: 100%}
+.option-w-textbox .checkbox-style, .option-w-textbox .radio-style , .option-w-textbox > span{display: table-cell;vertical-align: top;width: 50%}
+.option-w-textbox input[type=text]{max-width: 446px;}
+
+.vertical-center{top: 50%;transform: translateY(-50%);position: relative;}
+
+.wrapper{position: relative;}
+
+/*checkbox and radio button Style*/
+.checkbox-style, .radio-style {position: relative;padding-left: 25px;display: inline-block;}
+.radio-style input[type=radio], .checkbox-style input[type=checkbox] {display: none;}
+.radio-style label:before, .checkbox-style label:before {content: "";display: inline-block;width: 20px;height: 20px;margin-right: 0;position: absolute;left: 0;top: 11px;background-color: #79787a;box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);}
+.radio-style label:before {border-radius: 50%;}
+.checkbox-style label {/* margin-bottom: 10px; */}
+.checkbox-style label:before {border-radius: 3px;}
+input[type=radio]:checked + label:before {content: "\2022";color: #e6e7e8;font-size: 32px;text-align: center;line-height: 21px;}
+input[type=checkbox]:checked + label:before {content: "\2713";text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);font-size: 15px;color: #f3f3f3;text-align: center;line-height: 15px;}
+
+/*Header Logo*/
+.header-logo{text-align: center;width: 100%;top: 0;left: 0;position: absolute;}
+
+/*Home Banner*/
+.banner-section{background: url(images/bg_top_section.png) no-repeat center;padding-top: 9rem;}
+.banner-section .banner-title{text-align: center;}
+.banner-section .banner-title h2{font-size: 3.125rem;color: #58585b;font-weight: 300;}
+.banner-section .banner-title h3{font-size: 2.25rem;color: #58585b;font-weight: 300;}
+
+/*Home section 2*/
+.home-section2{background: url(images/bg_home_section2.png) no-repeat center;padding-top: 5rem;}
+
+/*Home section 3*/
+.home-section3{background: url(images/bg_home_section3.png) no-repeat center;padding-top: 5rem;}
+
+/*Contact Us page*/
+.contact-section1{background: url(images/bg_contact_section1.png) no-repeat center;padding-top: 5rem;}
+.contact-us-title{text-align: center;}
+.contact-us-title h2{font-size: 50px;color: rgba(185, 185, 185, 0.65);text-shadow: 0px -3px rgba(0, 0, 0, 0.52);}
+.contact-us-title p{font-size: 30px; margin-top: 50px;}
+
+.contact-section2{background: url(images/bg_contact_section2.png) no-repeat center;padding-top: 5rem;}
+
+/*Footer*/
+.footer{text-align: center;margin-bottom: 15px;}
